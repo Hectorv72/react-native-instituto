@@ -9,14 +9,56 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 - [Node.js](https://nodejs.org/) (versión recomendada: LTS)
 - [npm](https://www.npmjs.com/) (se instala automáticamente con Node.js)
 
-## Pasos para Crear un proyecto
+--------
+
+## Empecemos creando un proyecto con Expo
 
 - [Documentación de Expo](https://docs.expo.dev/)
 
+#### Paso 1: Instalación de Expo CLI
+Una vez que tienes Node.js instalado, abre tu terminal y ejecuta el siguiente comando para instalar Expo CLI de forma global:
+
 ```bash
-npx create-expo-app my-app
-cd my-app
+npm install -g expo-cli
 ```
+
+#### Paso 2: Crear un nuevo proyecto de React Native con Expo
+
+Abre tu terminal y navega al directorio donde deseas crear tu nuevo proyecto.
+
+Ejecuta el siguiente comando para crear un nuevo proyecto:
+
+```bash
+expo init nombre-de-tu-proyecto
+```
+
+#### Paso 1 y 2 Alternativo:
+
+Ejecuta el siguiente comando para crear un nuevo proyecto sin instalar expo-cli:
+
+```bash
+npx create-expo-app nombre-de-tu-proyecto
+```
+
+#### Paso 3: Ejecutar el proyecto
+
+Navega al directorio de tu nuevo proyecto:
+
+```bash
+cd nombre-de-tu-proyecto
+```
+
+Ejecuta el siguiente comando para iniciar tu proyecto:
+
+```bash
+expo start
+```
+
+Esto abrirá una ventana del navegador con la interfaz de Metro Bundler, que te permitirá iniciar tu aplicación en un emulador/simulador o dispositivo real.
+
+Escanea el código QR con la aplicación Expo Go en tu dispositivo móvil para ver tu aplicación en tiempo real. También puedes seleccionar la opción de ejecutar en emulador/simulador si lo prefieres.
+
+----------
 
 ## Aplicaciones imprescindibles para el desarrollo del curso
 
